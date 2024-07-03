@@ -1,0 +1,47 @@
+.Method__DataCard-main{
+    display: flex;
+    width: 100%;
+    color: white;
+    background-color: #131E38;
+    .Method__DataCard-image{
+        width: 40%;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .Method__DataCard-content{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+        padding: 10px 50px;
+        .Method__DataCard-contentHeading{
+            font-size: 35px;
+            font-weight: 500;
+            line-height: 52.5px;
+        }
+        .Method__DataCard-contentData{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color:#FFECD4;
+        }
+        .Method__DataCard-contentButton{
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            padding: 10px 25px;
+            background-color: #0455B4;
+            width: fit-content;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+    }
+}
+
+#imageRight{
+    flex-direction: row-reverse;
+    background-color: #101324;
+}

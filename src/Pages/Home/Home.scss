@@ -1,0 +1,216 @@
+// Introduction CSS
+.Method__HomeIntro_main {
+    .Method__HomeIntro_head {
+        display: flex;
+        padding: 70px 100px;
+        background-color: #000810;
+        width: 100%;
+
+        .Method__HomeIntro_left {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            background-image: url("../../assets/Home/IntroBackground.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+
+            .Method__HomeIntro_title {
+                width: 400px;
+                font-size: 54px;
+                font-weight: 600;
+                line-height: 81px;
+                color: #F4BF7D;
+            }
+
+            .Method__HomeIntro_desc {
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 36px;
+                color: #FFECD4;
+            }
+
+            .Method__HomeIntro_reqButton {
+                width: fit-content;
+                font-size: 16px;
+                line-height: 24px;
+                color: white;
+                padding: 10px 25px;
+                background-color: #0455B4;
+                border-radius: 15px;
+                cursor: pointer;
+            }
+        }
+
+        .Method__HomeIntro_right {
+            width: 50%;
+            background-image: url("../../assets/Home/IntroBackground2.svg");
+            background-position: 50%;
+            background-repeat: no-repeat;
+            background-size: contain;
+
+            .Method__HomeIntro_contact {
+                position: fixed;
+                right: 10%;
+                bottom: 10%;
+                padding: 10px 20px;
+                border-radius: 50px;
+                background: #57D163;
+                width: fit-content;
+                display: flex;
+                align-items: center;
+                gap: 7px;
+                cursor: pointer;
+
+                .Method__HomeIntro_contact-title {
+                    display: none;
+                    font-size: 14px;
+                    color: white;
+                }
+            }
+
+            .Method__HomeIntro_contact:hover {
+                .Method__HomeIntro_contact-title {
+                    display: block;
+                    animation:slidein 0.5s ease-out;
+                }
+                @keyframes slidein {
+                    0% {
+                      transform: translateX(100%);
+                    }
+                    100% {
+                      transform: translateX(0);
+                    }
+                  }
+            }
+        }
+    }
+    .Method__HomeIntro_definition{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 100px;
+        background: linear-gradient(90deg, #101324 0%, #1A3664 100%);
+        color: #FFFFFF;
+        .Method__HomeIntro_heading{
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 45px;
+            color: #F4BF7D;
+        }
+    }
+}
+
+// Technologies Styles
+
+.Method__HomeTech-main{
+    .Method__HomeTech-top{
+        padding: 45px;
+        background-color:#000810;
+        
+        .Method__HomeTech-title{
+            font-size: 35px;
+            font-weight: 500;
+            line-height: 52.5px;
+            color: #F4BF7D;
+            margin-bottom: 20px;
+        }
+
+        .Method__HomeTech-courses{
+            display: flex;
+            gap: 20px;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            .Method__HomeTech-frontbackend{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 50px;
+                padding: 20px;
+                border-radius: 25px;
+                background: #35354459;
+                div{
+                    height: 280px;
+                    width: 220px;
+                    img{
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .Method__HomeTech-EnrollAndMore{
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            margin-top: 20px;
+            width: calc(100% - 104px);
+            .Method__HomeTech-EnrollAndMore-left{
+                display: flex;
+                width: 50%;
+            }
+            .Method__HomeTech-EnrollAndMore-right{
+                display: flex;
+                gap: 10px;
+                justify-content: space-between;
+                align-items: center;
+                width: 50%;
+                .Method__HomeTech-Enroll{
+                    padding: 10px 25px;
+                    background-color: #0455B4;
+                    border-radius: 15px;
+                    white-space: nowrap;
+                    cursor: pointer;
+                }
+                .Method__HomeTech-More{
+                    color: #0075FF;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .Method__HomeTech-bottom{
+        padding: 100px;
+        background: linear-gradient(180deg, #1A3867 0%, #0F0F1C 100%);
+        .Method__HomeTech-weStrive{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            padding: 50px 60px;
+            border-radius: 20px;
+            color: white;
+            background: #889CC826;
+            .Method__HomeTech-weStrive-title{
+                font-size: 32px;
+                font-weight: 600;
+                line-height: 48px;
+                color: #F4BF7D;
+            }
+        }
+    }
+}
+
+//Videobar
+
+.container{
+padding: 35px;
+}
+
+.videobar-bg{
+    background: #131E38;
+}
+.videobar-text{
+    color: #F4BF7D;
+    padding: 20px 20px ;
+}
+
+// .arrowmark{
+//     padding: 20px 20px;
+//     height: 5px;
+//     width: 5px;
+// }
+
