@@ -78,3 +78,55 @@
     border-radius: 5px;
     text-decoration: none;
 }
+
+/* We provide two choices for sessions */
+.NM-container{
+    height: 32em;
+    padding: 20px;
+    background-color: #101324;
+    
+}
+.sessions-Box{
+    height: 305px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 150px 30px 150px;
+    padding: 20px;
+    color: white;
+    /* border: 1px SOLID #6c6969; */
+    border: 2px solid #383838;
+    border-radius: 35px;
+  
+    
+}
+.session-1{
+    height: 225px;
+    width: 73em;
+    padding: 25px;
+    margin: 40px;
+    background-color: #283E66;
+    border-radius: 20px;    
+}
+.session-2{
+    height: 225px;
+    width: 73em;
+    padding: 25px;
+    margin: 40px; 
+    background-color: #283E66;
+    border-radius: 20px;
+}
+.NM-container h1{
+    font-size: 1.75rem;
+    padding-top: 40px;
+    font-weight: revert-layer;
+}
+.NM-container button{
+    margin-left: 120px;  
+}
+
+.onsite-btn {
+    padding-top: 48px;
+    padding-left: 15px;
+}
